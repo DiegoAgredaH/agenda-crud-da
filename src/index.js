@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './firebase';
+import 'bootswatch/dist/cyborg/bootstrap.min.css'; //importamos el tema llamado superhero de bootswatch
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
